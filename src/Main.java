@@ -8,8 +8,8 @@ public class Main {
     }
 
     private static String student(int age, int temp) {
-        String home = "оставайтесь дома";
-        String GoHome = "можете идти гулять";
+        String home = "stay home";
+        String GoHome = "you can go for a walk";
         if (age>20&&age<45&&temp>-20&&temp<30){
             return GoHome;
         }else if (age<20&&temp>0 &&temp<28) {
